@@ -12,8 +12,11 @@ export default function Coin(props) {
       </div>
 
       <div className="coin-btns">
-        <button style={{ background: 'orange' }}>
-          <i className="far fa-edit" onClick={() => props.setEditing(id)} />
+        <button
+          style={{ background: 'orange' }}
+          onClick={() => props.setEditing(id)}
+        >
+          <i className="far fa-edit" />
         </button>
 
         <button
